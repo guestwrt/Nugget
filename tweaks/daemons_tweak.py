@@ -35,7 +35,6 @@ class Daemon(Enum):
         "com.apple.logd_reporter",
         "com.apple.logd_reporter.report_statistics",
         "com.apple.system.logger",
-        "com.apple.hangreporter",
         "com.apple.hangtracerd",
         "com.apple.spindump",
         "com.apple.rtcreportingd",
