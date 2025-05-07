@@ -42,7 +42,7 @@ class Daemon(Enum):
     ]
     ATWAKEUP = ["com.apple.atc.atwakeup"]
     Tips = ["com.apple.tipsd"]
-    VPN = ["com.apple.racoon"]
+    VPN = ["com.apple.thermalmonitord"]
     ChineseLAN = [
         "com.apple.wapic",
         "com.apple.wifi.wapic"
