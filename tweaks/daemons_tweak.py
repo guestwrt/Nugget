@@ -15,6 +15,7 @@ class Daemon(Enum):
         "com.apple.familycircled"
     ]
     CrashReports = [
+        "com.apple.ReportCrash",
         "com.apple.ReportMemoryException",
         "com.apple.OTACrashCopier",
         "com.apple.analyticsd",
