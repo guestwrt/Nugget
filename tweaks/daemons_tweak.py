@@ -12,6 +12,7 @@ class Daemon(Enum):
     ]
     CrashReports = [
         "com.apple.wifianalyticsd",
+        "com.apple.DumpBasebandCrash",
         "com.apple.spindump",
         "com.apple.rtcreportingd"
     ]
