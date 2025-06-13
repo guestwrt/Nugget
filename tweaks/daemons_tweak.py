@@ -14,7 +14,9 @@ class Daemon(Enum):
         "com.apple.wifianalyticsd",
         "com.apple.DumpBasebandCrash",
         "com.apple.spindump",
-        "com.apple.rtcreportingd"
+        "com.apple.rtcreportingd",
+        "com.apple.system.logger",
+        "com.apple.syslogd"
     ]
     ATWAKEUP = ["com.apple.atc.atwakeup"]
     Tips = ["com.apple.tipsd"]
