@@ -119,7 +119,7 @@ jobs:
 
   build-windows:
     if: ${{ github.event.inputs.build_for_windows == 'true' }}
-    runs-on: windows-latest
+    runs-on: windows-2025-vs2026
 
     steps:
       - name: Checkout
