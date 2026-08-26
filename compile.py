@@ -15,6 +15,7 @@ args = [
     '--onedir',
     '--noconfirm',
     '--collect-all=pymobiledevice3',  # <--- FIXED: Forces inclusion of __main__.py
+     '--exclude-module=pymobiledevice3.cli.developer',  # <--- 加上这一行，精准排除崩溃源！
     '--add-data=files/:files',
     '--copy-metadata=pyimg4',
     '--hidden-import=zeroconf',
