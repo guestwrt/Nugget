@@ -6,4 +6,5 @@ ffmpeg
 ffmpeg-python
 opencv-python
 pyperclip
-pyuac; sys_platform == 'windows'
+pyuac; sys_platform == 'win32'
+pywin32; sys_platform == 'win32'
