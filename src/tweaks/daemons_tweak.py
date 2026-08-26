@@ -3,10 +3,8 @@ from enum import Enum
 class Daemon(Enum):
     thermalmonitord = ["com.apple.thermalmonitord"]
     OTA = [
-        "com.apple.mobile.softwareupdated",
         "com.apple.OTATaskingAgent",
         "com.apple.softwareupdateservicesd",
-        "com.apple.mobile.NRDUpdated"
     ]
     UsageTrackingAgent = ["com.apple.UsageTrackingAgent"]
     GameCenter = ["com.apple.gamed"]
@@ -18,37 +16,12 @@ class Daemon(Enum):
         "com.apple.asktod"
     ]
     CrashReports = [
-        "com.apple.ReportCrash",
-        "com.apple.ReportCrash.Jetsam",
-        "com.apple.ReportMemoryException",
-        "com.apple.OTACrashCopier",
         "com.apple.analyticsd",
-        "com.apple.wifianalyticsd",
-        "com.apple.aslmanager",
-        "com.apple.coresymbolicationd",
-        "com.apple.crash_mover",
-        "com.apple.crashreportcopymobile",
-        "com.apple.DumpBasebandCrash",
-        "com.apple.DumpPanic",
-        "com.apple.logd",
-        "com.apple.logd.admin",
-        "com.apple.logd.events",
-        "com.apple.logd.watchdog",
-        "com.apple.logd_helper",
-        "com.apple.logd_reporter",
-        "com.apple.logd_reporter.report_statistics",
-        "com.apple.system.logger",
-        "com.apple.hangreporter",
-        "com.apple.hangtracerd",
-        "com.apple.spindump",
-        "com.apple.tailspind",
+        "com.apple.OTACrashCopier",
+        "com.apple.ReportCrash",
         "com.apple.rtcreportingd",
-        "com.apple.syslogd",
-        "com.apple.signpost.signpost_reporter",
-        "com.apple.pluginkit.pkreporter",
-        "com.apple.ProxiedCrashCopier",
-        "com.apple.ProxiedCrashCopier.ProxyingDevice",
-        "com.apple.ReportSystemMemory"
+        "com.apple.spindump",
+        "com.apple.wifianalyticsd"
     ]
     Diagnostics = [
         "com.apple.diagnosticd",
