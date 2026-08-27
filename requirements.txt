@@ -1,4 +1,5 @@
-pymobiledevice3
+pymobiledevice3 == 7.8.3
+construct-typing == 0.7.0 #在7.4后,去掉此行，将上面==也去掉
 PySide6-Essentials; sys_platform != 'linux'
 PySide6; sys_platform == 'linux'
 PyInstaller
