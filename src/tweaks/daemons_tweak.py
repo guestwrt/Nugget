@@ -20,7 +20,6 @@ class Daemon(Enum):
         "com.apple.analyticsd",
         "com.apple.analyticsd.admin",
         "com.apple.analyticsd.events",
-        "com.apple.ReportCrash",
         "com.apple.rtcreportingd",
         "com.apple.spindump",
         "com.apple.wifianalyticsd"
